@@ -82,7 +82,7 @@
         <a href="index.html" class="back-link">← Back to Legal Documents</a>
         
         <h1>Privacy Policy for ProfitApp</h1>
-        <p class="last-updated"><strong>Last Updated:</strong> January 22, 2026</p>
+        <p class="last-updated"><strong>Last Updated:</strong> June 8, 2026</p>
 
         <div class="highlight">
             <strong>Quick Summary:</strong> We collect location data only during job tracking, use Firebase for secure data storage, and never sell your personal information. You can delete your data at any time.
@@ -157,6 +157,28 @@
             <li>Cloud storage metadata</li>
             <li>Analytics data (if enabled)</li>
         </ul>
+
+        <h3>1.4 In-App Purchase Data</h3>
+        <p>When you purchase or manage a ProfitApp Pro subscription, we receive limited transaction information from Apple's StoreKit and the App Store Server API. This data is necessary to deliver and maintain your subscription entitlement.</p>
+        <p><strong>What we receive from Apple</strong></p>
+        <ul>
+            <li>Transaction identifier and original transaction identifier</li>
+            <li>Product identifier (Monthly or Annual subscription)</li>
+            <li>Purchase date and subscription expiration date</li>
+            <li>Subscription status (active, expired, in free trial, in billing retry, or cancelled)</li>
+        </ul>
+        <p><strong>What we store</strong></p>
+        <ul>
+            <li>An entitlement record in Firebase Cloud Firestore, keyed to your account, that reflects your current subscription status and expiration date</li>
+            <li>Server-side receipt validation results returned by the App Store Server API, stored as part of the entitlement record</li>
+        </ul>
+        <p><strong>What we do NOT collect or store</strong></p>
+        <ul>
+            <li>Payment method details, credit or debit card numbers, or card expiration dates</li>
+            <li>Billing addresses or other billing contact information</li>
+            <li>Your Apple ID password or any Apple account credentials</li>
+        </ul>
+        <p>All payment processing is handled exclusively by Apple. Apple's privacy practices govern any payment information you provide to them — see the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a> for details. Subscription notifications from Apple (renewals, cancellations, refunds, billing retries) are received server-side and used to update our entitlement record. See our <a href="terms.html">Terms of Service</a> for full subscription pricing, auto-renewal, cancellation, and refund terms.</p>
 
         <h2>2. How We Use Your Information</h2>
         
@@ -284,9 +306,9 @@
         <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
 
         <p style="text-align: center; color: #7f8c8d; font-size: 14px;">
-            <strong>Last Updated:</strong> January 22, 2026<br>
-            <strong>Effective Date:</strong> January 22, 2026<br>
-            <strong>Version:</strong> 1.0
+            <strong>Last Updated:</strong> June 8, 2026<br>
+            <strong>Effective Date:</strong> June 8, 2026<br>
+            <strong>Version:</strong> 1.1
         </p>
 
         <p style="text-align: center; margin-top: 30px;">
